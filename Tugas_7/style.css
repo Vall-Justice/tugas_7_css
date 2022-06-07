@@ -1,0 +1,28 @@
+body {
+   
+   background-image: url('Stupa_Borobudur.jpg');
+   background-repeat: no-repeat;
+   
+   /* kalo dikasih cover, nanti hasilnya tidak sama dengan hasil yang ditugas */
+   /* background-size: cover; */
+   
+   
+   
+}
+
+div {
+   color: blue;
+   margin: 0 auto;
+   width: 70%;
+   height: 500px;
+   padding-top: 10px;
+   background-image: url('avocado.jpg');
+   
+   border: 1px solid red;
+}
+
+div.repeat {
+   background-image: url('avocado.jpg');
+   background-repeat: repeat-x;
+   height: 130vh;
+}
